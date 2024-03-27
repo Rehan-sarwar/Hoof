@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.navbar-nav li > a{
+  color: black;
+}
+.navbar-nav li > a:hover{
+  color:#566573;
+ 
+}
+
+.navbar-nav li > a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #000080;
+    transition: width .3s;
+}
+.navbar-nav li > a:hover::after {
+    width: 100%;
+    transition: width .5s;
+   
+}
+.heading1{
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  max-width: 700px;
+  line-height: 1;
+  }
+  
+  .Eat{
+    border-left: 1px solid;
+   
+  }
